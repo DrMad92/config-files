@@ -11,7 +11,7 @@ set wrapmargin=8
 cmap w!! w !sudo tee > /dev/null %
 
 " HTML
-autocmd FileType html set omnifunc=htmlcomplete#CompleteTags tabstop=4 shiftwidth=4 expandtab
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags tabstop=4 shiftwidth=4
 
 " YAML
 autocmd Filetype yaml set tabstop=2 shiftwidth=2 expandtab
